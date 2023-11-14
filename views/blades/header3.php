@@ -29,7 +29,7 @@
     <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F5F5F5; height: 120px !important">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="../index.php">
                 <img src="../files/imgs/logo.png" class="img-fluid col-3 mt-3">
             </a>
             <a href="admin.php" class="text-decoration-none text-dark"><i class="bi bi-arrow-bar-left" id="backheader"></i></a>
