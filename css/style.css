@@ -128,7 +128,7 @@ p{
     list-style: none;
 }
 .circle{
-    position: absolute;
+    position: fixed;
     background-color: #5BB944;
     border-radius: 10px;
     width: 55px;
