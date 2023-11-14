@@ -60,72 +60,26 @@ p{
     font-weight: 800;
     font-size: 20px;
 }
+.forms input, select{
+    height: 55px;
+    border-radius: 10px;
+}
 .custom-file-label {
     border: none;
     background-color: transparent;
     padding: 0;
-  }
+}
 #footer{
     background-color: #EFEFEF;
     bottom: 0;
 }
-#footer{
-    background-color: #EFEFEF;
-}
-#items-footer{
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-size: 15px;
-}
-#redes2{
-    margin: 10px 0;
-    flex-wrap: wrap;
-    padding-inline-start: 0px !important;
-}
-#redes2 li a{
-    width: 1.6em;
-    height: 1.6em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3em;
-    color: #000;
-    margin: 0 5px;
-    transition: 0.5s;
-    border-radius: 50%;
-    border: 2px solid black
-}
-#redes2 li{
-    list-style: none;
-}
-#redes2 li a:hover{
-    transform: translateY(-10px);
-}
-#redes2 li{
-    list-style: none;
+#painel h1{
+    font-weight: 800;
+    font-size: 35px;
 }
 #copyright{
     font-family: 'Inter', sans-serif;
     font-size: 10px;
-}
-
-#redes{
-    margin: 10px 0;
-    flex-wrap: wrap;
-    padding-inline-start: 0px !important;
-}
-#redes li a{
-    font-size: 2em;
-    color: #FFF;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-}
-#redes li a:hover{
-    transform: translateY(-10px);
-}
-#redes li{
-    list-style: none;
 }
 .circle{
     position: fixed;

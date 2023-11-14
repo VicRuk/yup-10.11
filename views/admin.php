@@ -51,8 +51,8 @@ include("blades/header2.php");
                             </div>
                         </div>
                         <div class="card-image col-1 d-flex flex-column justify-content-center align-items-center">
-                            <a class="mb-1 text-dark" href="editarBlog.php?idb=<?php echo $exibe[0]?>"><i class="bi bi-pencil"></i></a>
-                            <a class="text-dark" href="../controllers/deletarBlog.php?idb=<?php echo $exibe[0]?>"><i class="bi bi-trash"></i>
+                            <a class="mb-1 text-dark" href="editarCookie.php?idb=<?php echo $exibe[0]?>"><i class="bi bi-pencil"></i></a>
+                            <a class="text-dark" href="../controllers/deletarCookie.php?idb=<?php echo $exibe[0]?>"><i class="bi bi-trash"></i>
                         </div>
                     </div>
                 </div>
