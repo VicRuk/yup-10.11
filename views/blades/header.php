@@ -15,20 +15,21 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700;800&display=swap" rel="stylesheet">
 
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <title>YUP COOKIES</title>
 </head>
 <body style="background-color: #F5F5F5">
     <div class="container-fluid px-0">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F5F5F5">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F5F5F5; height: 120px !important">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
-                <img src="files/imgs/logo.png" class="img-fluid col-3">
+                <img src="files/imgs/logo.png" class="img-fluid col-3 mt-3">
             </a>
         </div>
-</nav>
+        </nav>

@@ -4,60 +4,62 @@ html, body{
 h1{
     word-wrap: break-word; 
     max-width: 100%;
+    font-weight: 800;
 }
 h6{
     font-size: 20px;
 }
 p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     word-wrap: break-word; 
     max-width: 100%;
+}
+#backheader{
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 40px;
+}
+.input-box input{
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 55px;
+}
+.input-box i {
+    position: absolute;
+    left: 20px;
+    top:13px;
+    font-size: 23px;
+    color:#000;  
+}
+#card{
+    min-height: 160px;
+    border-radius: 40px;
 }
 .card-corpo a, .card-title p{
     word-wrap: break-word; 
     max-width: 100%;
 }
-.card-container {
-    height: 100%;
-}
 .card-image{
     object-fit: cover;
 }
-.card-image2 {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-.card-title{
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-.card-table {
-    height: 100%;
-}
-.card-usuario p {
-    font-size: 14px;
-}
 #home{
     min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
-#blog{
-    min-height: 90vh;
+#cookies h1{
+    font-size: 35px;
 }
-#painel{
-    min-height: 50vh;
-}
-#login{
-    min-height: 70vh;
-}
-td{
-    overflow-wrap: break-word; 
+#cookies h2{
     word-wrap: break-word; 
-    -ms-word-break: break-all; 
-    word-break: break-word; 
     max-width: 100%;
+    font-weight: 800;
+    font-size: 20px;
 }
-
 .custom-file-label {
     border: none;
     background-color: transparent;
@@ -106,6 +108,7 @@ td{
     font-family: 'Inter', sans-serif;
     font-size: 10px;
 }
+
 #redes{
     margin: 10px 0;
     flex-wrap: wrap;
@@ -123,4 +126,16 @@ td{
 }
 #redes li{
     list-style: none;
+}
+.circle{
+    position: absolute;
+    background-color: #5BB944;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+    bottom: 40px;
+    right: 20px;
+}
+.circle i{
+    font-size: 35px;
 }
