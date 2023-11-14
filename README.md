@@ -1,2 +1,2 @@
-# RBLOG
-Projeto CRUD Blog Damns feito por Victor Ryuki Tamezava.
+# YUP COOKIES
+Projeto CRUD Yup Cookies feito por Victor Ryuki Tamezava.
